@@ -1,0 +1,37 @@
+{
+  "name": "env-reloader",
+  "version": "1.0.2",
+  "description": "Auto-restart Node.js server on .env changes | dotenv reload watcher for development",
+  "main": "index.js",
+  "bin": {
+    "env-reloader": "index.js"
+  },
+  "keywords": [
+    "env",
+    "reload",
+    "reloader",
+    "dotenv",
+    "watch",
+    "auto-restart",
+    "node",
+    "nodejs",
+    "server reload",
+    "env watcher",
+    "environment variables",
+    "hot reload",
+    "file watcher"
+  ],
+  "author": "Bhuvnesh Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Bhuvnesh-Sharma/env-reloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Bhuvnesh-Sharma/env-reloader/issues"
+  },
+  "homepage": "https://github.com/The-Bhuvnesh-Sharma/env-reloader#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
